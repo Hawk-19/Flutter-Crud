@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String baseUrl = 'http://192.168.1.34:8000';
+  static const String baseUrl = 'http://:8000';
 
   // Validacion de login
   // Esta función se encarga de enviar una solicitud POST al servidor para iniciar sesión.
